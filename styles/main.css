@@ -1,3 +1,13 @@
+.pantryTitle {
+    color:brown;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pantryList {
+    font-size: 10ch;
+    font-family: fantasy;
+}
+
 h1 {
     font-family: 'Moon Dance', cursive;
     color: whitesmoke;
@@ -6,7 +16,6 @@ h1 {
     background-image: url("https://st.depositphotos.com/1008008/2386/i/600/depositphotos_23864057-stock-photo-blazing-flames-on-black-background.jpg") ;
     letter-spacing: 0.5em;
 }
-
 body {
     background-image: url("https://temeculablogs.com/wp-content/uploads/2020/09/easy-air-fryer-recipes.jpg");
 }
