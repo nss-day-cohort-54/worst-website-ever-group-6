@@ -19,3 +19,9 @@ h1 {
 body {
     background-image: url("https://temeculablogs.com/wp-content/uploads/2020/09/easy-air-fryer-recipes.jpg");
 }
+
+.steve {
+    display: flex;
+    border: 15px hotpink;
+
+}
