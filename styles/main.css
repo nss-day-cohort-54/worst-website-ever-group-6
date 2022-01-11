@@ -19,3 +19,54 @@ h1 {
 body {
     background-image: url("https://temeculablogs.com/wp-content/uploads/2020/09/easy-air-fryer-recipes.jpg");
 }
+
+.ad {
+   display: flex;
+   justify-content: center;
+   box-shadow: 5px 5px 5px 5px rgb(228, 9, 9);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+  }
+
+  @keyframes twister {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    10% {
+      transform: rotateZ(360deg);
+    }
+    20% {
+      transform: rotateZ(720deg);
+    }
+    30% {
+      transform: rotateZ(1080deg);
+    }
+    40% {
+      transform: rotateZ(1440deg);
+    }
+    50% {
+      transform: rotateZ(1800deg);
+    }
+    60% {
+      transform: rotateZ(2160deg);
+    }
+    70% {
+      transform: rotateZ(2520deg);
+    }
+    80% {
+    }
+    90% {
+    }
+    100% {
+    }
+  }
+  
+  .twister {
+    animation-name: twister;
+    animation-duration: 5s;
+    z-index: 1000;
+  }
